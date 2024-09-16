@@ -20,7 +20,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-slate-100/50 dark:bg-slate-900/50 shadow-sm border-b-[1px]">
+    <header className="sticky top-0 z-50 w-full bg-slate-200/60 dark:bg-slate-900/50 shadow-sm border-b-[1px]">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
           <PKLogoV2 className="h-10 w-10" />

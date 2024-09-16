@@ -3,7 +3,6 @@ import { siteConfig } from "@/config/site";
 
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider"
- 
 
 export const metadata: Metadata = {
 	title: {
@@ -12,7 +11,7 @@ export const metadata: Metadata = {
 	},
 	description: siteConfig.description,
 	icons: {
-	  icon: "/favicon.ico",
+	  icon: "@/public/favicon.ico",
 	},
   };
 
@@ -30,7 +29,11 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-        {children}
+        <div className="relative flex flex-col h-screen">
+          <main>
+            {children}
+          </main>
+        </div>
       </ThemeProvider>
       </body>
     </html>
