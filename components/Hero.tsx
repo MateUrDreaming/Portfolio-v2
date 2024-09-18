@@ -14,10 +14,10 @@ import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 const Hero = () => {
   return (
     <section id=''>
-        <div className="w-full dark:bg-slate-950 bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
+        <div className="dark:bg-slate-950 bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
             {/* Radial gradient for the container to give a faded look */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-slate-950 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
-            <div className='container flex-grow px-4 pt-16 mx-auto' id=''>
+            <div className='container flex-grow px-4 pt-16 mx-auto'>
                 <div className="container flex flex-wrap items-center justify-center mx-auto px-4 md:px-6 mb-5 md:flex-row">
                     <div className="mb-5 lg:mb-0 lg:w-1/2">
                         <h2 className='mt-4 text-xl text-blue-500 border border-blue-500 inline-block p-4 rounded-[100%]'>Data Scientist</h2>
@@ -52,7 +52,7 @@ const Hero = () => {
                             
                     </div>
                 </div>
-                <div className='container mx-auto px-4 md:px-6'>
+                <div className='container mx-auto px-4 md:px-6 mb-12'>
                     <h1 className="text-xl font-bold leading-snug tracking-wide text-slate-900 lg:text-2xl dark:text-white">
                         Kind words from 
                         <span className="text-primary"> some testimonials </span>

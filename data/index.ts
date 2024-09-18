@@ -22,6 +22,100 @@ export const title = {
     }, 
   ];
   
+
+
+  export type Project = {
+    image: string;
+    category: string;
+    title: string;
+    description: string;
+    demo: string;
+    github: string;
+    technologies: string[];
+  };
   
-  
+  export const projectsList: Project[] = [
+    { 
+      image: '',
+      category: 'Web Development',
+      title: 'Parin\'s Portfolio',
+      description: 'A professional portfolio website showcasing my skills, projects, and experiences. The website is built using React, Next.js, and Tailwind CSS using shadcn and aceternity UI.',
+      demo: "https://wwww.parinkasabia.com",
+      github: "",
+      technologies: ['React', 'Next.js', 'Tailwind CSS'],
+    },
+    { 
+      image: '',
+      category: 'Full Stack',
+      title: 'Signature Sounds',
+      description: 'A simple music library website that allows users to search for songs, view song details, and play songs. The website is built using flask and bootstrap.',
+      demo: "",
+      github: "",
+      technologies: ['Flask', 'SQLAlchemy', 'Bootstrap'],
+    },
+    { 
+      image: '',
+      category: 'Web Development',
+      title: 'Changing times',
+      description: 'A single page website which using Dall E 2 model to generate images based on user input. The website is built using React, Next.js, and Tailwind CSS.',
+      demo: "",
+      github: "",
+      technologies: ['Dall E', 'React', 'Next.js', 'Tailwind CSS'],
+    },
+    { 
+      image: '',
+      category: 'Web Development',
+      title: 'Parin\'s Portfolio',
+      description: 'A professional portfolio website showcasing my skills, projects, and experiences. The website is built using React, Next.js, and Tailwind CSS using shadcn and aceternity UI.',
+      demo: "https://wwww.parinkasabia.com",
+      github: "",
+      technologies: ['React', 'Next.js', 'Tailwind CSS'],
+    },
+    { 
+      image: '',
+      category: 'Full Stack',
+      title: 'Signature Sounds',
+      description: 'A simple music library website that allows users to search for songs, view song details, and play songs. The website is built using flask and bootstrap.',
+      demo: "",
+      github: "",
+      technologies: ['Flask', 'SQLAlchemy', 'Bootstrap'],
+    },
+    { 
+      image: '',
+      category: 'Web Development',
+      title: 'Changing times',
+      description: 'A single page website which using Dall E 2 model to generate images based on user input. The website is built using React, Next.js, and Tailwind CSS.',
+      demo: "",
+      github: "",
+      technologies: ['Dall E', 'React', 'Next.js', 'Tailwind CSS'],
+    },
+    { 
+      image: '',
+      category: 'Web Development',
+      title: 'Parin\'s Portfolio',
+      description: 'A professional portfolio website showcasing my skills, projects, and experiences. The website is built using React, Next.js, and Tailwind CSS using shadcn and aceternity UI.',
+      demo: "https://wwww.parinkasabia.com",
+      github: "",
+      technologies: ['React', 'Next.js', 'Tailwind CSS'],
+    },
+    { 
+      image: '',
+      category: 'Full Stack',
+      title: 'Signature Sounds',
+      description: 'A simple music library website that allows users to search for songs, view song details, and play songs. The website is built using flask and bootstrap.',
+      demo: "",
+      github: "",
+      technologies: ['Flask', 'SQLAlchemy', 'Bootstrap'],
+    },
+    { 
+      image: '',
+      category: 'Web Development',
+      title: 'Changing times',
+      description: 'A single page website which using Dall E 2 model to generate images based on user input. The website is built using React, Next.js, and Tailwind CSS.',
+      demo: "",
+      github: "",
+      technologies: ['Dall E', 'React', 'Next.js', 'Tailwind CSS'],
+    },
+  ];
+
   

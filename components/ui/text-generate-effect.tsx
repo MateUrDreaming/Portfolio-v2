@@ -13,7 +13,6 @@ export const TextGenerateEffect = ({
   const [scope, animate] = useAnimate();
   const wordsArray = words.split(" ");
   useEffect(() => {
-    console.log(wordsArray);
     animate(
       "span",
       {
@@ -50,7 +49,7 @@ export const TextGenerateEffect = ({
       {/* mt-4 to my-4 */}
       <div className="my-4">
         {/* remove  text-2xl from the original */}
-        <div className="text-4xl leading-snug tracking-wide text-slate-900 lg:text-6xl dark:text-slate-100">
+        <div className="text-3xl md:text-5xl leading-snug tracking-wide text-slate-900 lg:text-6xl dark:text-slate-100">
           {renderWords()}
         </div>
       </div>
