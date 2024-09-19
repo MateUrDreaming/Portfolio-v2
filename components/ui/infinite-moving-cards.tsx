@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { FaUserAstronaut } from "react-icons/fa";
 
 import { cn } from "@/lib/utils";
 
@@ -93,19 +94,19 @@ export const InfiniteMovingCards = ({
         {items.map((item) => (
           <li
             key={item.name}
-            className="w-[350px] max-w-full relative rounded-2xl bg-slate-200 dark:bg-slate-900 flex-shrink-0 px-8 py-6 md:w-[450px]"
+            className="w-[350px] max-w-full relative rounded-xl border bg-card text-card-foreground shadow flex-shrink-0 px-8 py-6 md:w-[450px]"
             
           >
-            <blockquote>
+            <blockquote className="flex flex-col h-full">
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               />
-              <span className=" relative z-20 h-[75%] text-justify text-sm leading-[1.6] dark:text-slate-100 text-neutral-950 font-normal">
+              <span className=" relative z-20 h-[75%] text-[0.95rem] leading-[1.6] dark:text-slate-100 text-neutral-950 font-normal">
                 {item.quote}
               </span>
-              <div className="relative z-20 flex flex-row items-center mt-6">
-                <span className="flex flex-col gap-1">
+              <div className="relative z-20 flex flex-row items-center mt-6 justify-between">
+                <span className="flex flex-col gap-1 items-end h-full">
                   <span className=" text-sm leading-[1.6] text-[#006fee] font-bold">
                     {item.name}
                   </span>
@@ -113,6 +114,7 @@ export const InfiniteMovingCards = ({
                     {item.date}
                   </span>
                 </span>
+                <FaUserAstronaut className="text-2xl text-blue-500"/>
               </div>
             </blockquote>
           </li>

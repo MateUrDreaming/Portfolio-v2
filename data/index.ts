@@ -1,3 +1,20 @@
+import { IconType } from "react-icons/lib";
+import { 
+  RiNextjsFill,
+  RiTailwindCssFill,
+  RiReactjsFill,
+  RiBootstrapFill,
+
+ } from "react-icons/ri";
+
+ import { 
+  SiFlask,
+  SiJinja,
+  SiOpenai,
+  SiSqlalchemy 
+ } from "react-icons/si";
+
+
 export const title = {
     header: `Welcome to Parin's professional portfolio.`,
     subHeader: `I'm a aspiring data scientist who is passionate about leveraging data to drive insights, solve complex problems, and create innovative solutions. I am eager to apply my skills in machine learning, statistical analysis, and data visualization to real-world challenges and contribute to projects.`,
@@ -31,7 +48,7 @@ export const title = {
     description: string;
     demo: string;
     github: string;
-    technologies: string[];
+    technologies: IconType[];
   };
   
   export const projectsList: Project[] = [
@@ -42,7 +59,7 @@ export const title = {
       description: 'A professional portfolio website showcasing my skills, projects, and experiences. The website is built using React, Next.js, and Tailwind CSS using shadcn and aceternity UI.',
       demo: "https://wwww.parinkasabia.com",
       github: "",
-      technologies: ['React', 'Next.js', 'Tailwind CSS'],
+      technologies: [RiReactjsFill, RiNextjsFill, RiTailwindCssFill],
     },
     { 
       image: '',
@@ -51,7 +68,7 @@ export const title = {
       description: 'A simple music library website that allows users to search for songs, view song details, and play songs. The website is built using flask and bootstrap.',
       demo: "",
       github: "",
-      technologies: ['Flask', 'SQLAlchemy', 'Bootstrap'],
+      technologies: [SiFlask, SiSqlalchemy, RiBootstrapFill, SiJinja],
     },
     { 
       image: '',
@@ -60,61 +77,7 @@ export const title = {
       description: 'A single page website which using Dall E 2 model to generate images based on user input. The website is built using React, Next.js, and Tailwind CSS.',
       demo: "",
       github: "",
-      technologies: ['Dall E', 'React', 'Next.js', 'Tailwind CSS'],
-    },
-    { 
-      image: '',
-      category: 'Web Development',
-      title: 'Parin\'s Portfolio',
-      description: 'A professional portfolio website showcasing my skills, projects, and experiences. The website is built using React, Next.js, and Tailwind CSS using shadcn and aceternity UI.',
-      demo: "https://wwww.parinkasabia.com",
-      github: "",
-      technologies: ['React', 'Next.js', 'Tailwind CSS'],
-    },
-    { 
-      image: '',
-      category: 'Full Stack',
-      title: 'Signature Sounds',
-      description: 'A simple music library website that allows users to search for songs, view song details, and play songs. The website is built using flask and bootstrap.',
-      demo: "",
-      github: "",
-      technologies: ['Flask', 'SQLAlchemy', 'Bootstrap'],
-    },
-    { 
-      image: '',
-      category: 'Web Development',
-      title: 'Changing times',
-      description: 'A single page website which using Dall E 2 model to generate images based on user input. The website is built using React, Next.js, and Tailwind CSS.',
-      demo: "",
-      github: "",
-      technologies: ['Dall E', 'React', 'Next.js', 'Tailwind CSS'],
-    },
-    { 
-      image: '',
-      category: 'Web Development',
-      title: 'Parin\'s Portfolio',
-      description: 'A professional portfolio website showcasing my skills, projects, and experiences. The website is built using React, Next.js, and Tailwind CSS using shadcn and aceternity UI.',
-      demo: "https://wwww.parinkasabia.com",
-      github: "",
-      technologies: ['React', 'Next.js', 'Tailwind CSS'],
-    },
-    { 
-      image: '',
-      category: 'Full Stack',
-      title: 'Signature Sounds',
-      description: 'A simple music library website that allows users to search for songs, view song details, and play songs. The website is built using flask and bootstrap.',
-      demo: "",
-      github: "",
-      technologies: ['Flask', 'SQLAlchemy', 'Bootstrap'],
-    },
-    { 
-      image: '',
-      category: 'Web Development',
-      title: 'Changing times',
-      description: 'A single page website which using Dall E 2 model to generate images based on user input. The website is built using React, Next.js, and Tailwind CSS.',
-      demo: "",
-      github: "",
-      technologies: ['Dall E', 'React', 'Next.js', 'Tailwind CSS'],
+      technologies: [SiOpenai, RiReactjsFill, RiNextjsFill, RiTailwindCssFill],
     },
   ];
 
