@@ -14,7 +14,7 @@ const Experience = () => {
                 <p className="text-center text-gray-500 dark:text-gray-400 mt-2">
                     Here is some of the education and work experience I have gained over the years. 
                 </p>
-                <div className="container py-8 flex flex-col justify-center items-center">
+                <div className="container py-2 flex flex-col justify-center items-center">
                     <Timeline defaultColor="bg-blue-500" />
                 </div>
             </div>
