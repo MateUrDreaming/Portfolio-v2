@@ -13,8 +13,8 @@ export const siteConfig = {
       href: "#projects",
     },
     {
-      label: "Education",
-      href: "#education",
+      label: "Experience",
+      href: "#experience",
     },
     {
       label: "Contact",

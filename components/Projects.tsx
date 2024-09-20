@@ -23,11 +23,11 @@ const Projects = () => {
 
     return (
         <section id='projects'>
-           <div className='relative flex items-center justify-center'>
+           <div className='relative flex items-center justify-center' >
                 <div className="container flex-grow px-4 py-5 mx-auto ">
                     <div className="container mx-auto px-4 md:px-6 py-5"> 
                         <h1 className="text-xl text-center font-bold leading-snug tracking-wide text-slate-900 lg:text-3xl dark:text-white">
-                            <span className="text-blue-500"> Projects </span>
+                            <span className="text-blue-500 pt-10"> Projects </span>
                         </h1>
                         <p className="text-center text-gray-500 dark:text-gray-400 mt-2">
                             Here are some of the projects I have worked on, showcasing my skills and experiences.
@@ -37,7 +37,6 @@ const Projects = () => {
                         </div>
                         <ProjectCards projects={projects} />
                     </div>
-                    
                 </div>
             </div>     
         </section>

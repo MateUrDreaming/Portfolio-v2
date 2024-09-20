@@ -81,4 +81,93 @@ export const title = {
     },
   ];
 
+  interface ITimelineElement {
+    id: number;
+    title: string;
+    location: string;
+    description: string;
+    date: string;
+    icon: string;
+    color: string;
+    compentencies: string[];
+    image?: string;
+    imgAlt?: string;
+  }
+
+  const timelineElements: ITimelineElement[] = [
+    {
+      id: 1,
+      title: "Graduated from High School",
+      location: "Auckland, New Zealand",
+      description: "Achieved NCEA Level 1, 2 and 3 at Orewa College with excellence endorsement. Gained awards for Statistics, Digital Technologies and History. I was also a prefect for Nepia House.",
+      compentencies: ["Digital Technologies", "Calculus", "Statisitcs", "Physics", "English", "Business Studies", "History"],
+      date: "2014 - 2020",
+      icon: "school",
+      color: "blue",
+      image: "/images/orewa.jpg",
+      imgAlt: "Orewa College",
+      
+    },
+    {
+      id: 2,
+      title: "Entered University",
+      location: "Auckland, New Zealand",
+      description: "Enrolled in the Bachelor of Science and Bachelor of Commerce conjoint at the University of Auckland. I am currently majoring in Computer Science and Information Systems.",
+      compentencies: ["Programming", "Soft Skills", "Communication", "Team Work", "Problem Solving", "Time Management", "Analytical Skills"],
+      date: "2021 - PRESENT",
+      icon: "school",
+      color: "blue",
+      image: "/images/orewa.jpg",
+      imgAlt: "Orewa College",
+    },
+    {
+      id: 3,
+      title: "Summer job at Provident Insurance",
+      location: "Auckland, New Zealand",
+      description: "I worked at Provident Insurance as a administrative assistant. Here I queried and amended policies, processed upcoming renewals and wrote documentation.",
+      compentencies: ["Details"],
+      date: "NOV 2021 - MAR 2022",
+      icon: "work",
+      color: "blue",
+      image: "/images/orewa.jpg",
+      imgAlt: "Orewa College",
+    },
+    {
+      id: 4,
+      title: "Joined WDCC at University of Auckland",
+      location: "Auckland, New Zealand",
+      description: "I joined the Web Development and Consulting Club at the University of Auckland. Here I have been able to learn more about web development and work on projects.",
+      compentencies: ["React", "Next.js", "Tailwind CSS", "HTML", "CSS", "JavaScript", "APIs", "Git", "Vercel"],
+      date: "2023 - Present",
+      icon: "school",
+      color: "blue",
+      image: "/images/orewa.jpg",
+      imgAlt: "Orewa College",
+    },
+    {
+      id: 5,
+      title: "Cisco Cyber Threat Management Certificate",
+      location: "Auckland, New Zealand",
+      description: "In 2023, I completed the Cisco Cyber Threat Management Certificate. This certificate has given me a better understanding of cyber security and how to protect against cyber threats.",
+      compentencies: ["Cyber Security", "Networking", "Cisco", "Security"],
+      date: "2023",
+      icon: "school",
+      color: "blue",
+      image: "/images/orewa.jpg",
+      imgAlt: "Orewa College",
+    },
+    {
+      id: 6,
+      title: "Attended Akkidos AI-900 Bootcamp",
+      location: "Auckland, New Zealand",
+      description: "I attended the Akkidos AI-900 Bootcamp where I learnt about the fundamentals of AI and Machine Learning. I also gained a certification in AI-900.",
+      compentencies: ["Azure", "Machine Learning", "AI", "Python"],
+      date: "2024",
+      icon: "school",
+      color: "blue",
+      image: "/images/orewa.jpg",
+      imgAlt: "Orewa College",
+    },
+  ];
   
+  export default timelineElements.reverse();
