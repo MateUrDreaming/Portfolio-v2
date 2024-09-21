@@ -44,20 +44,21 @@ const Timeline: React.FC<TimelineProps> = ({defaultColor}) => {
                                 <Image src="/placeholder.svg" alt="Project" width={400} height={225} className="object-cover w-[100%] h-[100%] aspect-video rounded-md"/>
                             </div>
                             */}
-                            <div className="flex flex-wrap mb-6 justify-center">
-                                {element.compentencies.map((tech, index) => {
+                            <Image src={`/icons/${element.icon}.svg`} alt={element.icon} width={20} height={20} className={`${color} w-8 p-1 rounded-lg z-20 absolute left-4 bottom-4 sm:hidden`}/>
+
+                            <div className="flex flex-wrap mb-6 px-5 justify-center">
+                                {element.compentencies.map((compentency, index) => {
                                 return (
                                     <span
                                     key={index}
                                     className="bg-blue-500 rounded-xl px-2 py-1 text-sm m-1"
                                     >
-                                    {tech}
+                                    {compentency}
                                     </span>
                                 );
+                                
                                 })}
                             </div>
-                            
-
                         </div>
                     </div>
                 )

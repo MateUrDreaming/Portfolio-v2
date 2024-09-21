@@ -4,7 +4,7 @@ import Timeline from './ui/Timeline'
 
 const Experience = () => {
   return (
-    <section id='experience'>
+    <section id='experience' className='scroll-mt-16'>
         <div className="dark:bg-slate-950 bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
             {/* Radial gradient for the container to give a faded look */}
             <div className='container mx-auto px-4 md:px-6 py-6'>
@@ -15,7 +15,7 @@ const Experience = () => {
                     Here is some of the education and work experience I have gained over the years. 
                 </p>
                 <div className="container py-2 flex flex-col justify-center items-center">
-                    <Timeline defaultColor="bg-blue-500" />
+                    <Timeline />
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ const Projects = () => {
     }
 
     return (
-        <section id='projects'>
+        <section id='projects' className='scroll-mt-16'>
            <div className='relative flex items-center justify-center' >
                 <div className="container flex-grow px-4 py-5 mx-auto ">
                     <div className="container mx-auto px-4 md:px-6 py-5"> 
