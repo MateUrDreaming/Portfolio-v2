@@ -22,8 +22,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({projects}) => {
           <div key={index} className="flex flex-col h-full">
             <Card className="flex flex-col h-full">
               <CardHeader className="p-4">
-                  {/*<Image src={project.image} alt={project.title} width={400} height={225} className="object-cover w-[100%] h-[100%] aspect-video"/>8?*/}
-                  <Image src="/placeholder.svg" alt="Project" width={400} height={225} className="object-cover w-[100%] h-[100%] aspect-video rounded-md"/>
+                  {/*<Image src="/placeholder.svg" alt={project.title} width={400} height={225} className="object-cover w-[100%] h-[100%] aspect-video"/>8?*/}
+                  <Image src={project.image} alt="Project" width={400} height={225} className="object-cover w-[100%] h-[100%] aspect-video rounded-md"/>
                 </CardHeader>
                 <CardContent className="p-4 items-start">
                   <div className="text-xl font-bold">{project.title}</div>
