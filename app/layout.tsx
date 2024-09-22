@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     icons: {
       icon: "/icon.ico",
     },
+    openGraph: {
+      title: siteConfig.name,
+      description: siteConfig.description,
+      siteName: siteConfig.siteName,
+    },
+  
   };
 
 export default function RootLayout({
